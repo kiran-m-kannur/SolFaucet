@@ -9,7 +9,7 @@ def index():
         account_address = request.form['account_address']
         process = subprocess.Popen(['solana', 'airdrop', '1', account_address, '--url', 'https://api.devnet.solana.com'], stdout=subprocess.PIPE)
         output = process.communicate()[0]
-        return render_template('index.html', message='Airdrop successful!')
+        return render_template('index.html', message='Airdrop successful!!')
     else:
         return render_template('index.html')
 

@@ -1,2 +1,2 @@
 # SolFaucet
-Airdrops sol to devnet
+Airdrops 1 sol to devnet
